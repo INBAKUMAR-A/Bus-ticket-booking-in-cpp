@@ -1,0 +1,18 @@
+The above code utilizes several Object-Oriented Programming (OOP) concepts:
+
+
+1. **Encapsulation:** The classes (`Bus`, `Ticket`, `BusTicketReservationSystem`) encapsulate data and behavior together by defining private fields and providing public methods to access and manipulate the data. For example, the `Bus` class encapsulates bus information and provides getter methods to access the data.
+
+2. **Inheritance:** The code does not explicitly demonstrate inheritance. However, if there were additional entities with common characteristics (e.g., different types of buses), the classes could be extended to inherit common attributes and behaviors from a base class.
+
+3.**Polymorphism:** The code does not explicitly demonstrate polymorphism. However, if there were methods in the classes with the same name but different implementations (e.g., a `display()` method in the `Bus` and `Ticket` classes), polymorphism could be utilized by calling the method on objects of different types, resulting in the appropriate behavior being executed.
+
+4. **Abstraction:** The classes (`Bus`, `Ticket`, `BusTicketReservationSystem`) provide a simplified and abstracted representation of real-world entities. Users interact with the `BusTicketReservationSystem` class without needing to know the internal details of how bus reservations are implemented.
+
+5. **Association:** The classes are associated with each other to represent relationships. For example, the `Ticket` class has an association with the `Bus` class to represent that a ticket is associated with a specific bus.
+
+6. **Composition:** The `BusTicketReservationSystem` class uses composition to maintain lists of buses and tickets. It has a "has-a" relationship with the `Bus` and `Ticket` classes, as it contains and manages instances of those classes.
+
+7. **Getter and Setter Methods:** The classes provide getter and setter methods to access and modify the private fields. This follows the principle of encapsulation and provides controlled access to the class attributes.
+
+These OOP concepts help in organizing and structuring the code, promoting reusability, and making it easier to understand and maintain.

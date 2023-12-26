@@ -1,0 +1,19 @@
+The above project is a Bus Ticket Reservation System implemented in Java using object-oriented programming concepts. Here's an explanation of the different classes and their functionalities:
+
+1. **Bus:** This class represents a bus with its properties such as bus number, source, destination, total seats, and available seats. It provides methods to get the bus details, reserve seats, and display the bus information.
+
+2. **Ticket:** This class represents a ticket associated with a bus. It has properties like ticket number, bus object, passenger name, and the number of seats reserved. The Ticket class also provides methods to get ticket details and display the ticket information.
+
+3. **BusTicketReservationSystem:** This class acts as the central component of the reservation system. It maintains lists of buses and tickets. It provides methods to add a bus, reserve a ticket, display available buses, display all tickets, and get the list of buses.
+
+4. **Main:** This class contains the main method where the program execution starts. It creates an instance of the BusTicketReservationSystem and adds some buses to it. It then presents a menu to the user to interact with the reservation system. The user can choose to display available buses, reserve a ticket, display all tickets, or exit the system.
+
+When the user chooses to display available buses, the system retrieves the list of buses from the reservation system and displays the details of buses that have available seats.
+
+When the user chooses to reserve a ticket, the system prompts the user to enter the bus number, passenger name, and number of seats to reserve. It checks if the bus exists and if there are enough available seats. If the reservation is successful, it creates a new ticket, reduces the available seats, and displays the ticket details.
+
+When the user chooses to display all tickets, the system retrieves the list of tickets from the reservation system and displays the details of each ticket.
+
+The program continues to loop until the user chooses to exit the system by entering 0.
+
+Overall, the program provides a simple interface to reserve bus tickets and view available buses and ticket information.
