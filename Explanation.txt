@@ -1,4 +1,4 @@
-The above project is a Bus Ticket Reservation System implemented in Java using object-oriented programming concepts. Here's an explanation of the different classes and their functionalities:
+The above project is a Bus Ticket Reservation System implemented in c++ using object-oriented programming concepts. Here's an explanation of the different classes and their functionalities:
 
 1. **Bus:** This class represents a bus with its properties such as bus number, source, destination, total seats, and available seats. It provides methods to get the bus details, reserve seats, and display the bus information.
 
